@@ -2,8 +2,8 @@ kind: pipeline
 name: default
 
 steps:
-- name: example
-  image: alpine
+- name: cowsay
+  image: chuanwen/cowsay
   commands:
-  - true
+  - /usr/games/fortune -a | /usr/games/cowsay
 
