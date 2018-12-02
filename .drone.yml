@@ -5,5 +5,5 @@ steps:
 - name: example
   image: alpine
   commands:
-  - false
+  - true
 
