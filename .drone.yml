@@ -5,5 +5,5 @@ steps:
 - name: cowsay
   image: chuanwen/cowsay
   commands:
-  - /usr/games/fortune -a | /usr/games/cowsay
+  - echo "Hello tech ops show and tell" | /usr/games/cowsay
 
